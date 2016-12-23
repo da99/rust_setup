@@ -4,6 +4,8 @@
 THE_ARGS="$@"
 THIS_DIR="$(dirname "$(dirname "$0")")"
 
+PREFIX="/progs/rust"
+
 if [[ -z "$@" ]]; then
   action="watch"
 else
